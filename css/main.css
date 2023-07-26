@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1440px;
+  height: 892px;
+}
+.header .header__nav {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 82px;
+}
+.header .header__nav .header__nav-logo {
+  margin-left: 100px;
+  width: 176px;
+  height: 32px;
+}
+.header .header__nav .header__nav-list {
+  margin-left: 465px;
+  display: flex;
+  justify-content: space-around;
+  width: 550px;
+  height: 16px;
+}
+.header .header__nav .header__nav-list .header__nav-list-ul-li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.header .header__nav .header__nav-list .header__nav-list-ul-li .header__nav-list-ul-li-a {
+  margin-top: -5px;
+  text-decoration: none;
+  color: #000;
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.header .header__nav .header__nav-list .header__nav-list-ul-li .header__nav-list-ul-li-a:hover {
+  color: rgb(22, 225, 0);
+}
+.header .header__nav .header__nav-img {
+  padding-left: 10px;
+}
+.header .header__hero {
+  display: flex;
+  width: 1440px;
+  height: 810px;
+  background-image: url(/images/image\ 12.png);
+  background-repeat: no-repeat;
+}
+.header .header__hero .hero__main {
+  display: flex;
+  width: 1440px;
+  height: 810px;
+  background: linear-gradient(359deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.header .header__hero .header__hero-text {
+  display: flex;
+  margin-top: 252px;
+  margin-left: 82px;
+  width: 891px;
+  height: 374px;
+  background-image: url(/images/make\ the\ right.svg);
+  background-repeat: no-repeat;
+  background-position-y: 10px;
+  background-position-x: 20px;
+}
+.header .header__hero .header__hero-text .header__hero-text-h1 {
+  padding-top: 116px;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 325px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 76%;
+}
+.header .header__hero .header__hero-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 538px;
+  margin-left: 140px;
+  width: 250.45px;
+  height: 88px;
+}
+.header .header__hero .header__hero-icon .header__hero-icon-text {
+  padding-top: 35px;
+  padding-left: 28px;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.51px;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1440px;
+  height: 3199.9999999px;
+}
+.main .section__destinations {
+  text-align: center;
+  width: 1440px;
+  height: 1057px;
+  background: linear-gradient(180deg, #00BEAC 0%, rgba(0, 190, 172, 0) 100%);
+}
+.main .section__destinations .section__destinations-top {
+  padding-top: 80px;
+}
+.main .section__destinations .section__destinations-h2 {
+  padding-left: 10px;
+  margin-top: -80px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: lowercase;
+}
+.main .section__destinations .section__destinations-p {
+  padding-top: 30px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .section__destinations .section__destinations-img {
+  stroke-width: 20px;
+  stroke: #286761;
+}
+.main .section__destinations .section__destinations-group {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 90px;
+  width: 1300px;
+  height: 553px;
+}
+.main .section__destinations .section__destinations-group .section__destinations-group-1 {
+  width: 310px;
+  height: 100%;
+  background-image: url(/images/image\ 2.png);
+  background-repeat: no-repeat;
+}
+.main .section__destinations .section__destinations-group .section__destinations-group-1 .destinations__cards {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.92) 100%);
+}
+.main .section__destinations .section__destinations-group .section__destinations-group-1 .destinations__cards .destinations__cards-h3 {
+  padding-top: 360px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.main .section__destinations .section__destinations-group .section__destinations-group-1 .destinations__cards .destinations__cards-p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main .more__destination {
+  text-align: center;
+  margin-top: 140px;
+  margin-left: 70px;
+  width: 1300px;
+  height: 1131px;
+}
+.main .more__destination .more__destination-h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: lowercase;
+}
+.main .more__destination .more__destination-p {
+  padding-top: 30px;
+  color: #565656;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .more__destination .more__destination-div1 {
+  margin-top: 93px;
+  width: 1300px;
+  height: 710px;
+}
+.main .more__destination .more__destination-div1 .easting {
+  width: 342px;
+  height: 710px;
+  background-image: url(/images/Rectangle\ 33.png);
+}
+.main .more__destination .more__destination-div1 .easting .easting__1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.main .more__destination .more__destination-div1 .easting .easting__1 .easting__1-h3 {
+  padding-top: 365px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.main .more__destination .more__destination-div1 .easting .easting__1 .easting__1-p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main .more__destination .more__destination-div1 .more__destinationany {
+  margin-top: -710px;
+  margin-left: 340px;
+  display: flex;
+}
+.main .more__destination .more__destination-div1 .more__destinationany .vik {
+  display: flex;
+  margin-left: 20px;
+  width: 459px;
+  height: 345px;
+  background-image: url(/images/Rectangle\ 34.png);
+}
+.main .more__destination .more__destination-div1 .more__destinationany .vik .vik__1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.main .more__destination .more__destination-div1 .more__destinationany .vik .vik__1 .vik__1-h3 {
+  padding-top: 223px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.main .more__destination .more__destination-div1 .more__destinationany .vik .vik__1 .vik__1-p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main .more__destination .more__destination-div1 .more__destinationany .hamnoy {
+  margin-left: 20px;
+  width: 459px;
+  height: 345px;
+  background-image: url(/images/Rectangle\ 35.png);
+}
+.main .more__destination .more__destination-div1 .more__destinationany .hamnoy .hamnoy__1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.main .more__destination .more__destination-div1 .more__destinationany .hamnoy .hamnoy__1 .hamnoy__1-h3 {
+  padding-top: 223px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.main .more__destination .more__destination-div1 .more__destinationany .hamnoy .hamnoy__1 .hamnoy__1-p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main .more__destination .more__destination-div1 .montego {
+  margin-top: 20px;
+  margin-left: 360px;
+  width: 938px;
+  height: 345px;
+  background-image: url(/images/Rectangle\ 36.png);
+}
+.main .more__destination .more__destination-div1 .montego .montego__1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.main .more__destination .more__destination-div1 .montego .montego__1 .montego__1-h3 {
+  padding-top: 195px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.main .more__destination .more__destination-div1 .montego .montego__1 .montego__1-p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main .footer {
+  margin-top: 21px;
+  width: 1440px;
+  height: 850px;
+  background: rgb(0, 53, 49);
+}
+.main .footer .footer__group {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 77px;
+  width: 1131px;
+  height: 234px;
+}
+.main .footer .footer__group .footer__group-ul1 {
+  list-style: none;
+  width: 231px;
+  height: 207px;
+}
+.main .footer .footer__group .footer__group-ul1 .footer__group-ul1__h4 {
+  color: #D0D0D0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 156.687%;
+  text-transform: uppercase;
+}
+.main .footer .footer__group .footer__group-ul1 .footer__group-ul1-li {
+  margin-top: 9px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Roboto";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0%;
+}
+.main .footer .footer__group .footer__group-ul2 {
+  list-style: none;
+  margin-left: 197px;
+  width: 97px;
+  height: 234px;
+}
+.main .footer .footer__group .footer__group-ul2 .footer__group-ul1__h4 {
+  color: #D0D0D0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 156.687%;
+  text-transform: uppercase;
+}
+.main .footer .footer__group .footer__group-ul2 .footer__group-ul1-li {
+  margin-top: 9px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Roboto";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0%;
+}
+.main .footer .footer__group .footer__group-ul3 {
+  margin-left: 213px;
+  list-style: none;
+  width: 85px;
+  height: 234px;
+}
+.main .footer .footer__group .footer__group-ul3 .footer__group-ul1__h4 {
+  color: #D0D0D0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 156.687%;
+  text-transform: uppercase;
+}
+.main .footer .footer__group .footer__group-ul3 .footer__group-ul1-li {
+  margin-top: 9px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Roboto";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0%;
+}
+.main .footer .footer__group .footer-img2 {
+  padding-left: 285px;
+}
+
+/*# sourceMappingURL=main.css.map */
